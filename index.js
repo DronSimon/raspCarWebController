@@ -1,19 +1,30 @@
-function a()
+function fw()
 {
-        var xmlhttp=new XMLHttpRequest();
-        /*xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
-           if (xmlhttp.status == 200) {
-               document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
-           }
-           else if (xmlhttp.status == 400) {
-              alert('There was an error 400');
-           }
-           else {
-               alert('something else other than 200 was returned');
-           }
-        }
-    };*/
-    xmlhttp.open("GET", "a", true);
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.open("GET", "fw", true);
     xmlhttp.send();
 }
+
+function bw()
+{
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.open("GET", "bw", true);
+    xmlhttp.send();
+}
+
+function le()
+{
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.open("GET", "le", true);
+    xmlhttp.send();
+}
+
+function ri()
+{
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.open("GET", "ri", true);
+    xmlhttp.send();
+}
+
+
+
